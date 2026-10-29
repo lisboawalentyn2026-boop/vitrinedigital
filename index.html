@@ -1,0 +1,108 @@
+<title>Vitrine Digital Links</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: uma coluna estreita tipo app, cabeçalho de confiança, botões grandes agrupados por nicho */
+:root{
+  --bg:#0b1324; --card:#131d33; --line:rgba(255,255,255,.12); --fg:#ffffff; --muted:#a9b3c7;
+  --beleza:#ff8fb8; --ia:#4be3c1; --livro:#ffb547; --fit:#c6f26b; --azul:#7fd4ff;
+  --display:"Poppins",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:
+  radial-gradient(90% 40% at 90% 0%, #3a1d6e 0%, transparent 60%),
+  radial-gradient(80% 40% at 0% 100%, #123a7a 0%, transparent 60%), var(--bg);
+  background-attachment:fixed;color:var(--fg);font-family:var(--display);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 48px;min-height:100%}
+main{max-width:480px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.logo{width:96px;height:96px;border-radius:50%;border:3px solid #fff;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--bg);font-weight:800;letter-spacing:2px;font-size:15px;line-height:1.1;box-shadow:0 0 0 4px rgba(127,212,255,.25)}
+.logo small{font-weight:500;font-size:9px;letter-spacing:3px;color:var(--azul)}
+h1{margin:6px 0 0;font-size:24px;font-weight:800;letter-spacing:-.3px}
+.handle{color:var(--muted);font-size:14px;margin:0}
+.tagline{margin:4px 0 0;font-size:15px;line-height:1.5;color:#dfe5f1;max-width:34ch;text-wrap:balance}
+.selos{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:6px}
+.selo{font-size:12px;font-weight:600;padding:7px 12px;border-radius:99px;background:rgba(255,255,255,.07);border:1px solid var(--line)}
+section{display:flex;flex-direction:column;gap:12px}
+h2{margin:0;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--c)}
+a.prod{display:flex;gap:14px;align-items:center;text-decoration:none;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px;transition:transform .15s,border-color .15s}
+a.prod:hover,a.prod:focus-visible{transform:translateY(-2px);border-color:var(--c);outline:none}
+.ic{flex:none;width:56px;height:56px;border-radius:16px;background:var(--c);display:flex;align-items:center;justify-content:center;font-size:28px}
+.tx{min-width:0;flex:1}
+.tx b{display:block;font-size:16px;font-weight:700;line-height:1.25}
+.tx span{display:block;font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
+.seta{flex:none;width:34px;height:34px;border-radius:50%;background:var(--c);color:var(--bg);display:flex;align-items:center;justify-content:center;font-weight:800}
+.confia{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:20px;padding:18px;font-size:13px;line-height:1.6;color:#dfe5f1}
+.confia b{color:#fff}
+.social{display:flex;gap:10px}
+.social a{flex:1;text-align:center;text-decoration:none;font-weight:700;font-size:15px;padding:15px;border-radius:99px;background:#fff;color:var(--bg)}
+footer{text-align:center;font-size:11px;color:var(--muted);line-height:1.6}
+@media (prefers-reduced-motion:reduce){a.prod{transition:none}}
+</style>
+
+<main>
+  <header>
+    <div class="logo">VITRINE<small>DIGITAL</small></div>
+    <h1>Vitrine Digital</h1>
+    <p class="handle">@vitrinedigital.oficialbr</p>
+    <p class="tagline">Cursos e e-books selecionados com cuidado para você aprender, crescer e ter uma nova renda.</p>
+    <div class="selos">
+      <span class="selo">🔒 Compra segura</span>
+      <span class="selo">✅ Garantia de 7 dias</span>
+      <span class="selo">🤝 Afiliados oficiais</span>
+    </div>
+  </header>
+
+  <section style="--c:var(--beleza)">
+    <h2>💅 Beleza e profissão</h2>
+    <a class="prod" href="https://go.hotmart.com/E108218548E" target="_blank" rel="noopener">
+      <div class="ic">💅</div>
+      <div class="tx"><b>Especialização em Cutilagem</b><span>Com Faby Cardoso. Do zero ao profissional, com certificado.</span></div>
+      <div class="seta">›</div>
+    </a>
+    <a class="prod" href="https://go.hotmart.com/U108218600D" target="_blank" rel="noopener" style="--c:#ffc2a8">
+      <div class="ic">🌸</div>
+      <div class="tx"><b>Cutícula Perfeita</b><span>Aperfeiçoamento: cutícula fina, funda e corte bordado.</span></div>
+      <div class="seta">›</div>
+    </a>
+  </section>
+
+  <section style="--c:var(--ia)">
+    <h2>🤖 Inteligência Artificial</h2>
+    <a class="prod" href="https://go.hotmart.com/U108219576H" target="_blank" rel="noopener">
+      <div class="ic">🤖</div>
+      <div class="tx"><b>IA para Renda Extra</b><span>Use o ChatGPT para criar serviços e buscar seus primeiros clientes.</span></div>
+      <div class="seta">›</div>
+    </a>
+  </section>
+
+  <section style="--c:var(--livro)">
+    <h2>📚 Conhecimento e finanças</h2>
+    <a class="prod" href="https://go.hotmart.com/E108219571A" target="_blank" rel="noopener">
+      <div class="ic">📚</div>
+      <div class="tx"><b>O Arsenal do Sucesso</b><span>Kit de e-books: IA, programação, negócios, finanças e marketing.</span></div>
+      <div class="seta">›</div>
+    </a>
+  </section>
+
+  <section style="--c:var(--fit)">
+    <h2>🥗 Vida fit</h2>
+    <a class="prod" href="https://go.hotmart.com/R108218334A" target="_blank" rel="noopener">
+      <div class="ic">🍰</div>
+      <div class="tx"><b>Bolos Fit</b><span>Mais de 30 receitas para comer bem ou vender. Com bônus.</span></div>
+      <div class="seta">›</div>
+    </a>
+  </section>
+
+  <div class="confia">
+    <b>Como funciona:</b> você toca no produto e vai direto para a página oficial na Hotmart. O pagamento é feito lá, com Pix, cartão ou boleto, e o acesso chega no seu e-mail. Não gostou? Peça o reembolso em até 7 dias pela própria plataforma.
+  </div>
+
+  <div class="social">
+    <a href="https://www.instagram.com/vitrinedigital.oficialbr/" target="_blank" rel="noopener">Siga no Instagram</a>
+  </div>
+
+  <footer>Vitrine Digital • Produtos educacionais. Os resultados dependem da dedicação de cada pessoa.</footer>
+</main>
